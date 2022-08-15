@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music is your life</title>
+
+    <style>
+        ul li{
+            float: left;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        ul li a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+
+        }
+        div{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #list div{
+            float: left;
+            height: 250px;
+        }
+        #list div a{
+            text-decoration: none;
+
+        }
+        #audio_list div{
+            float: left;
+
+        }
+        #mp3{
+            padding-top: 20px;
+            width: 700px;
+        }
+        #hot div{
+            float: left;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 1000px; margin: auto;">
+        <div id="menu" style="width: 998px">
+            <div width="100px" style="float: left;"><a href="#"><img src="/images/logo-music.png" alt="logo music" width="70px"></a></div>
+            <div width="648px" style="float: left;">
+                <ul style="list-style-type: none;">
+                    <li><a href="#">Bảng xếp hạng</a></li>
+                    <li><a href="#">Nhạc Việt Nam</a></li>
+                    <li><a href="#">Nhạc Quốc tế</a></li>
+                    <li><a href="#">Bài hát yêu thích</a></li>
+                </ul>
+            </div>
+            <div style="float:right; width: 250px;">
+                <ul style="list-style-type: none;">
+                    <li><a href="#">Đăng nhập</a></li>
+                    <li><a href="#">Đăng ký</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div id="banner" style="width: 998px; height: 400px;">
+            <div>
+                <img src="/images/images_banner.jpg" alt="ảnh banner" width="998px">
+            </div>
+        </div>
+        <div style="padding-top: 60px; text-align:center;">
+            <input type="text" style="width: 400px; height: 30px; border-radius: 5px;">
+            <input type="button" value="Tìm kiếm" style="height: 36px; border-radius: 5px;">
+        </div>
+        <div>
+            <div id="album">
+                <h3>ALBUM NỔI BẬT</h3>
+            </div>
+            <div id="list">
+                <div style="width: 240px; margin-left: 5px;">
+                    <img src="/images/video01.jpg" alt="Video 1" height="180px" width="230px">
+                    <p>Album 1</p>
+                </div>
+                <div style="width: 240px; margin-left: 5px;">
+                    <img src="/images/video02.jpg" alt="Video 1" height="180px" width="230px">
+                    <p>Album 2</p>
+                </div>
+                <div style="width: 240px; margin-left: 5px;">
+                    <img src="/images/video03.jpg" alt="Video 1" height="180px" width="230px">
+                    <p>Album 3</p>
+                </div>
+                <div style="width: 240px; margin-left: 5px;">
+                    <img src="/images/video04.jpg" alt="Video 1" height="180px" width="230px">
+                    <p>Album 4</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div id="video" style="width: 990px">
+                <h3>VIDEO XEM NHIỀU</h3>
+            </div>
+            <div id="hot" style="width: 990px">
+                <div id="video_hot" style="margin-left: 5px; width: 650px;">
+                    <iframe width="600" height="400" src="https://www.youtube.com/embed/EANSg6Lv0FE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div id="noibat" style="margin-right: 5px; width: 330px;">
+                    <div>
+                        <video controls style="width: 300px;"><source src="/videos/batcoccontim.mp4" style="width: 300px;"></video>
+                        <p>Bắt Cóc Con Tim</p>
+                    </div>
+                    <div>
+                        <video controls style="width: 300px;"><source src="/videos/hieuthuhai.mp4" style="width: 300px;"></video>
+                        <p>Vệ Tinh</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div >
+            <div id="audio">
+                <h3>TOP BÀI HÁT NGHE NHIỀU</h3>
+            </div>
+            <div id="audio_list">
+                <div id="mp3">Dĩ Vãng Cuộc Tình - Tuấn Hưng</div><div><audio controls><source src="/mp3/DiVangCuocTinh-TuanHung.mp3"></audio></div>
+            </div>
+            <div id="audio_list">
+                <div id="mp3">Cho Vừa Lòng Em - Đạt Long Vĩnh</div><div><audio controls><source src="/mp3/ChoVuaLongEmLofiVersion-DatLongVinh.mp3"></audio></div>
+            </div>
+            <div id="audio_list">
+                <div id="mp3">Điều Ước Của Hoa Hồng - Khánh Phương</div><div><audio controls><source src="/mp3/DieuUocCuaHoaHong-KhanhPhuong.mp3"></audio></div>
+            </div>
+            <div id="audio_list">
+                <div id="mp3">Miền Cát Trắng - Quang Vinh</div><div><audio controls><source src="/mp3/MienCatTrang-QuangVinh.mp3"></audio></div>
+            </div>
+            <div id="audio_list">
+                <div id="mp3">Ngôi Sao Cô Đơn - Jack97</div><div><audio controls><source src="/mp3/NgoiSaoCoDon-JackJ97.mp3"></audio></div>
+            </div>
+            <div id="audio_list">
+                <div id="mp3">Quên - Khắc Việt</div><div><audio controls><source src="/mp3/Quen-KhacViet.mp3"></audio></div>
+            </div>
+            <div id="audio_list">
+                <div id="mp3">Ta La Của Nhau - Đông Nhi, Ông Cao Thắng</div><div><audio controls><source src="/mp3/TaLaCuaNhau-DongNhiOngCaoThang.mp3"></audio></div>
+            </div>
+            <div id="audio_list">
+                <div id="mp3">Tình Khúc Vàng - Đan Trường</div><div><audio controls><source src="/mp3/TinhKhucVang-DanTruong.mp3"></audio></div>
+            </div>
+            <div id="audio_list">
+                <div id="mp3">Tình Thôi Xót Xa - Lam Trường</div><div><audio controls><source src="/mp3/TinhThoiXotXa-LamTruong.mp3"></audio></div>
+            </div>
+            <div id="audio_list">
+                <div id="mp3">Vì Mẹ Anh Bắt Chia Tay - Miu Lê</div><div><audio controls><source src="/mp3/ViMeAnhBatChiaTay-MiuLe.mp3"></audio></div>
+            </div>
+        </div>
+        <div id="footer">
+            <div><p>Nội dung của Footer ở đây</p></div>
+        </div>
+    </div>
+</body>
+</html>
